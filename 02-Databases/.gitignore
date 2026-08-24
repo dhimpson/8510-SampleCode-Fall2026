@@ -1,0 +1,4 @@
+# databases are built, not committed
+*.db
+__pycache__/
+.DS_Store

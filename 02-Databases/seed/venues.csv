@@ -1,0 +1,54 @@
+venue_id,title,year,source_id,street_address,description,city_id
+1,Cheeks,1984,d-1984-01105,336 King St.,(Levi & W) (Cruisy),1
+2,Cheeks,1985,d-1985-01177,336 King St.,(Levi & W)(Cruisy),1
+3,Streetcar,1982,d-1982-04104,336 King St.,(Cruisy),1
+4,Streetcar,1983,d-1983-04479,336 King St.,(Cruisy),1
+5,Streetcar,1984,d-1984-04563,346 King St.,(Cruisy),1
+6,Streetcar,1985,d-1985-04876,346 King St.,"(346 King Club)(some B,L)",1
+7,Richland Adult Books,1988,d-1988-05127,2729 Two Notch Rd.,,2
+8,Richland Adult Books,1989,d-1989-05015,2729 Two Notch Rd.,,2
+9,Richland Adult Books,1990,d-1990-04603,2729 Two Notch Rd,799-6969,2
+10,Holiday Inn Bar,1974,d-1974-02121,,,3
+11,Holiday Inn Bar,1975,d-1975-02364,Jct. U.S. 52 & I-95,,3
+12,Holiday Inn Bar,1977,d-1977-02873,Jct. U.S. 52 & I-95,,3
+13,Holiday Inn Bar,1978,d-1978-03043,Jct. US 52 & I-65,,3
+14,Bushwacker's Pub,1987,d-1987-05098,621 Airport Rd.,,4
+15,Bushwacker's Pub,1988,d-1988-05145,621 Airport Rd.,,4
+16,Bushwacker's Pub,1989,d-1989-05032,621 Airport Rd.,(Cruisy) (Levi) (AH-WE),4
+17,Bushwacker's Pub,1990,d-1990-04613,621 Airport Rd,234-6767,4
+18,Bushwacker's Pub,1991,d-1991-04877,621 Airport Rd.,"234-6767 cruise bar, 6pm-2am Mon-Thur, til 4 Fri, til 3 Sat, 3pm-mid Sun",4
+19,Bushwacker's Pub,1992,d-1992-05161,621 Airport Rd.,"234-6767 cruise bar, 8pm-3:30am, from 3pm Sun",4
+20,Bushwacker's Pub,1993,d-1993-05319,621 Airport Rd.,"234-6767 8pm-3:30am, from 4pm Sun",4
+21,Bushwacker's Pub,1994,d-1994-04882,621 Airport Rd.,"234-6767 8pm-3:30am, from 4pm Sun",4
+22,Hilltop Adult Bookstore,1986,d-1986-02665,,Hwy. 29 (Greer),4
+23,Hilltop Adult Bookstore,1987,d-1987-05102,,Hwy. 29 (Greer),4
+24,Hurl Rock Park,1994,d-1994-04891,,at 20th Ave. S.,5
+25,Hurl Rock Park,1995,d-1995-05776,at 20th Ave. S.,,5
+26,Hurl Rock Park,1996,d-1996-05372,,at 20th Ave. S.,5
+27,Hurl Rock Park,1999,d-1999-06607,,at 21st Ave S (south end),5
+28,Hurl Rock Park,2000,d-2000-06556,,at 21st Ave S  (south end),5
+29,Hurl Rock Park,2001,d-2001-07790,,at 21st Ave S (south end),5
+30,Time Out,1991,d-1991-04882,520 8th Ave. N.,"448-1180 8pm-?, til mid Sat, clsd Sun",5
+31,Time Out,1992,d-1992-05167,520 8th Ave. N.,"448-1180 8pm-?, til midnight Sat (opens 4pm in summer)",5
+32,Time Out,1993,d-1993-05326,520 8th Ave. N.,"448-1180 8pm-?, til 2am Sat (opens 5pm in summer)",5
+33,Time Out,1994,d-1994-04887,520 8th Ave. N.,"448-1180 5pm-?, til 2am Sat",5
+34,Time Out,1995,d-1995-01636,520 8th Ave. N.,"448-1180 5pm-?, til 2am Sat",5
+35,Time Out,1996,d-1996-05368,520 8th Ave. N.,"448-1180 6pm-?, til 2am Sat",5
+36,Time Out,1997,d-1997-01948,520 8th Ave,"448-1180, til 2am Sat",5
+37,Time Out,1998,d-1998-02194,520 8th Ave N,"448-1180 6pm-?, til 2am Sat",5
+38,Time Out,1999,d-1999-04849,520 8th Ave N,"843/448-1180 5pm-close, till 2am Sat",5
+39,Time Out,2000,d-2000-06549,520 8th Ave N,"(at Oak) 843/448-1180 5pm-close, till 2am Sat, karaoke Tue & Sun, patio",5
+40,Time Out,2001,d-2001-05025,520 8th Ave N,"(at Oak) 843/448-1180 5pm-close, till 2am Sat, karaoke Tue & Sun, patio bar",5
+41,Time Out,2002,d-2002-07244,520 8th Ave N,"(at Oak) 843/448-1180 5pm-close, till 2am Sat, karaoke Tue & Sun, patio bar",5
+42,Time Out,2003,d-2003-04797,520 8th Ave N,"(at Oak)  843/448-1180  5pm-close, till 2am Sat, karaoke Tue & Sun, patio bar",5
+43,Adult World,1987,d-1987-05111,1400 Asheville Hwy.,,6
+44,Adult World,1988,d-1988-05157,1400 Asheville Hwy.,,6
+45,Adult World,1989,d-1989-05044,1400 Asheville Hwy,(Books) (Cruisy),6
+46,Cheyenne Cattlemen's Club,1993,d-1993-05333,995 Ashville Hwy.,573-7304 8pm-2am,6
+47,Cheyenne Cattlemen's Club,1994,d-1994-04893,995 Asheville Hwy.,"573-7304/(800)428-9808 8pm-2am, til 4am Fri",6
+48,Cheyenne Cattlemen's Club,1995,d-1995-02339,995 Ashville Hwy,,6
+49,Cheyenne Cattlemen's Club,1997,d-1997-02787,995 Asheville Hwy,"573-7304/(800) 428-9808 8pm-2am, til 4am Fri, from 3pm Sun",6
+50,Cheyenne Cattlemen's Club,1998,d-1998-05401,995 Asheville Hwy,"573-7304 8pm-2am, til 4am Fri, from 3pm Sun",6
+51,Cheyenne Cattlemen's Club,1999,d-1999-04854,995 Ashville Hwy,"864/573-7304 8pm-2am, till 4am Fri, from 3pm Sun",6
+52,Cheyenne Cattlemen's Club,2000,d-2000-06558,995 Asheville Hwy,"864/573-7304 8pm-2am, till 4am Fri, from 3pm Sun",6
+53,Cheyenne Cattlemen's Club,2001,d-2001-05031,995 Asheville Hwy,"864/573-7304 8pm-2am, till 4am Fri, from 3pm Sun",6
