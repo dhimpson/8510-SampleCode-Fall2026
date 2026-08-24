@@ -10,8 +10,8 @@ regenerate every time the schema changes.
 ```mermaid
 erDiagram
     cities ||--o{ venues : "one city has many venues"
-    venues ||--o{ venue_type_link : ""
-    venue_types ||--o{ venue_type_link : ""
+    venues ||--o{ venue_type_link : "is tagged by"
+    venue_types ||--o{ venue_type_link : "describes"
 
     cities {
         INTEGER city_id PK
@@ -35,8 +35,8 @@ erDiagram
     }
 
     venue_type_link {
-        INTEGER venue_id PK-FK
-        INTEGER type_id PK-FK
+        INTEGER venue_id PK, FK "-> venues.venue_id"
+        INTEGER type_id PK, FK "-> venue_types.type_id"
     }
 ```
 
@@ -53,7 +53,15 @@ describes many venues. Neither table could hold that on its own.
 
 Note that `venue_type_link` has no id of its own. Its primary key is the pair
 of foreign keys, which is what stops the same venue being tagged with the same
-category twice.
+category twice. In Mermaid that is written `PK, FK` with a comma. Writing
+`PK-FK` looks reasonable and is a parse error, which GitHub will report as
+"Unable to render rich display" rather than as a typo.
+
+Syntax for one attribute line, in order:
+
+```
+TYPE  name  [PK|FK|UK]  ["a comment in quotes"]
+```
 
 ## The thing this diagram does not show
 
