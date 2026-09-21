@@ -1,19 +1,3 @@
-# OCR with LLMs (Gemini)
-
-Last week we used Tesseract, which recognizes characters and needed careful image
-preprocessing to work well. This week we give the raw image to a multimodal LLM
-(Google's Gemini Flash-Lite) and ask it to transcribe the page.
-
-`gemini_ocr.py` sends every image in `images/` to Gemini and asks for a **verbatim**
-transcription that preserves the layout: columns, line breaks, and spacing. Each result
-is saved as a `.txt` file in `ocr-results/`. The script prints the tokens and cost for
-each image, plus a total at the end.
-
-The sample images are the same ones from Week 5, so you can compare the Tesseract output
-with Gemini's output directly.
-
----
-
 ## Setup
 
 ### Step 1: Get an API key
@@ -39,12 +23,16 @@ source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Unlike Week 5, there's nothing to install with Homebrew. The OCR happens on Google's servers.
-
 ---
 
 ## Running it
 
+Activate venv if not already running:
+```bash
+source venv/bin/activate
+```
+
+Run:
 ```bash
 python gemini_ocr.py
 ```
@@ -62,18 +50,4 @@ Transcribing IMG_0402.jpg ...
 
 To OCR your own documents, drop `.jpg`, `.png`, or `.webp` files into `images/` and run it again.
 
----
 
-## Things to notice
-
-- **Tokens and cost.** Input tokens are the image plus the prompt. Output tokens are the
-  transcription. Output costs much more per token than input.
-- **Thinking tokens.** Gemini may "think" before it answers. You're billed for those
-  tokens at the output rate even though you never see them, so the script counts them in the cost.
-- **Prices change.** The prices are set at the top of `gemini_ocr.py`. Check
-  [Google's pricing page](https://ai.google.dev/gemini-api/docs/pricing).
-- **Verbatim isn't guaranteed.** LLMs are trained to produce fluent text, so they sometimes
-  "fix" spellings, expand abbreviations, or fill in words they can't read. Unlike Tesseract,
-  the result looks plausible even when it's wrong. Always check the output against the image.
-- **Try changing the prompt.** The `PROMPT` variable controls how the model handles
-  columns, tables, and illegible text. See what changes when you edit it.
