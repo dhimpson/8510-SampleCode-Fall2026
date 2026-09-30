@@ -1,0 +1,18 @@
+                                                                   8
+MANLY-From 711 E Washington
+    north to Elford, 2 east of Pettigru
+    9 Vacant
+    10 Virginia Apartments
+bsmt Vacant
+Apartments:
+    A1 Hearin Eunice B Mrs
+        $\Delta$CE9-6715
+    A2 Cooley Velma S Mrs $\odot$
+        $\Delta$CE2-6494
+    A3 Anderson Mary E Mrs
+        $\Delta$CE3-7995
+    B1 Ross Walter H $\Delta$CE2-0056
+    B2 Atkins Talcott W Mrs
+        $\Delta$CE3-5860
+    B3 Hendricks Evelyn V
+        $\Delta$CE9-3718

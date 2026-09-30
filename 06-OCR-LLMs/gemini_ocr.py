@@ -52,6 +52,8 @@ Rules:
 - Include headers, footers, page numbers, marginal notes, stamps, and handwriting.
 - If a word or character cannot be read, write [illegible] in its place.
   Do not guess.
+  - Keep all symbols exactly as printed, including ◎ and Δ. Do not drop, replace,
+  or explain them.
 - Output only the transcription: no introduction, no commentary, no markdown formatting."""
 
 # ----------------------------------------------------------------------------
