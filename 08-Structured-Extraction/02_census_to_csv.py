@@ -64,6 +64,10 @@ FIELDS = [
     ("q14_benevolences", "14. Amount expended for benevolences, missions, denominational support, and other purposes."),
     ("q15_total_expenditures", "15. Total expenditures during year."),
 
+    # 16-17: Sunday School
+    ("q16_officers_and_teachers", "16. Number of officers and teachers"),
+    ("q17_sunday_school_scholars", "17.Number of scholars"),
+
     # 25: pastor
     ("q25_pastor_name", "25. Name of pastor."),
 
