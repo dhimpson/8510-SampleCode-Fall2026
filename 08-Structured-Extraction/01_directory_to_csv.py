@@ -33,9 +33,9 @@ from google.genai import types
 # One entry per column: (column name, instructions for the model).
 # Change the columns here and the schema and CSV header change with them.
 
-FIELDS = [
+FIELDS = [ ##deleted 'exactly as written' from surname - it came after Family name
     ("surname",
-     "Family name(s) exactly as printed, including hyphenated names "
+     "Family name(s), including hyphenated names "
      "(e.g. 'Gould-Marr-Keller'). The directory prints surnames in small "
      "capitals; write them in normal capitalization (e.g. 'Gilliland')."),
     ("given_names",
