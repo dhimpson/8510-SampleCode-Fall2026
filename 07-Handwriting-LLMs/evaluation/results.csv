@@ -1,0 +1,11 @@
+run,page,raw_cer,raw_wer,normalized_cer,normalized_wer
+baseline,IMG_0376,0.0131,0.125,0.0055,0.0462
+baseline,ALL PAGES,0.0131,0.125,0.0055,0.0462
+baseline-2,IMG_0376,0.0131,0.1042,0.0055,0.0462
+baseline-2,ALL PAGES,0.0131,0.1042,0.0055,0.0462
+context-prompt,IMG_0376,0.0131,0.1042,0.0055,0.0462
+context-prompt,ALL PAGES,0.0131,0.1042,0.0055,0.0462
+high thinking,IMG_0376,0.0157,0.1458,0.0028,0.0308
+high thinking,ALL PAGES,0.0157,0.1458,0.0028,0.0308
+no-vebatim-rule,IMG_0376,0.0105,0.0625,0.0083,0.0462
+no-vebatim-rule,ALL PAGES,0.0105,0.0625,0.0083,0.0462

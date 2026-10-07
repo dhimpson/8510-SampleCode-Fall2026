@@ -101,3 +101,16 @@ At the top of `02_gemini_transcribe.py` you can change:
 `03_evaluate.py`, which scores every run and prints a comparison table.
 
 Also try running the same settings twice under two run names. Do you get the same transcription?
+
+## Results of entire exercise (this is a Claude synopsis):
+Baseline vs. baseline-2: The normalized scores are identical, but raw WER went from 12.5% to 10.4%, a difference of one word. With identical settings, the model produced slightly different output, probably a line break or punctuation mark. That's your measure of random variation: a one-word difference between runs could just be chance.
+
+Context prompt: This is identical to baseline-2. Telling the model the letter's date made no measurable difference on this page.
+
+High thinking: This is the best normalized score, but only by one word and one character. That fits the idea that more thinking helps a little, but it's within the range of chance, and this run's raw score is actually the worst. It also cost more.
+
+No verbatim rule: This is the most interesting result. It has the best raw score (6.2%) but the worst normalized CER (0.8%). One possible explanation is that it handled formatting and line breaks better but changed an extra letter somewhere, perhaps "correcting" a spelling. Open evaluation/no-vebatim-rule/IMG_0376_alignment.txt to check what it did with "Defintely."
+
+Raw vs. normalized: In every run, raw WER is 2 to 5 times higher than normalized WER. So most of the model's "errors" are formatting, such as case, punctuation, and line breaks, not misreading the handwriting.
+
+Overall: Gemini read this letter almost perfectly, missing only 2 or 3 words out of 65, whichever settings you used. With one page, none of the experiments shows a difference larger than normal run-to-run variation. If you want stronger conclusions, adding ground truth for one or two more pages, especially harder ones, would help the most.

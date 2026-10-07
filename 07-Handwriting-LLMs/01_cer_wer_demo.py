@@ -41,6 +41,31 @@ EXAMPLES = [
     ("Only case and punctuation differ",
      "Monday, June 3rd.",
      "monday june 3rd"),
+
+        # My examples
+    ("Model 'fixed' the writer's misspelling",
+     "Defintely, your idea is superb",
+     "Definitely, your idea is superb"),
+
+    ("Joined a word hyphenated across a line break",
+     "not interest-\ned in our womanhood",
+     "not interested in our womanhood"),
+#claude suggested this one and the last one. 
+#it noted that the \n used in a python string will mean "start a new line of code"
+#  and will result in matching the actual letter with the hyphenated line.
+
+
+    ("Guessed instead of marking [illegible]",
+     "the [illegible] was delayed",
+     "the shipment was delayed"),
+
+    ("Split one word into two",
+     "we leave tomorrow morning",
+     "we leave to morrow morning"),
+
+    ("Skipped an entire line",
+     "I do not\nbelieve any woman would\nintentionally sell her soul",
+     "I do not\nintentionally sell her soul"),
 ]
 
 
