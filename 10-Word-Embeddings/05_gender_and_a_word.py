@@ -41,8 +41,8 @@ MEN_WORDS = ["man", "men", "he", "his", "him", "himself", "boy", "boys"]
 
 NEAR_SHARE = 0.03       # look at the 3% of words closest to TARGET
 MIN_COUNT = 50          # skip rarer words (cuts out most OCR fragments)
-SHOW = 15               # how many words to list on each side
-PLOT_LABELS = 10        # how many of those to label on the plot
+SHOW = 20               # how many words to list on each side
+PLOT_LABELS = 15        # how many of those to label on the plot
 
 OPEN_PLOTS = True
 
