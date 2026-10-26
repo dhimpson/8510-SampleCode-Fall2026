@@ -10,6 +10,7 @@ changed meaning.
 | `02_explore_model.py` | Nearest words, nearest to several words, a 2D plot of a word and its neighbors | `MODEL_NAME`, `WORD`, `SEED_WORDS`, `PLOT_COUNT` |
 | `03_align_models.py` | Aligns the period models so they can be compared | (nothing, unless you rename models) |
 | `04_explore_change.py` | Traces one word across the periods | `WORD` |
+| `05_gender_and_a_word.py` | Which words near a target word lean toward women, and which toward men (after Schmidt) | `MODEL_NAME`, `TARGET`, `WOMEN_WORDS`, `MEN_WORDS` |
 
 ---
 
@@ -85,6 +86,8 @@ Each model is saved in `models/`. Training takes a minute or two per period.
 **3. Align the three models:** `python 03_align_models.py`
 
 **4. Trace a word over time:** `python 04_explore_change.py`
+
+**5. Gender and a word:** `python 05_gender_and_a_word.py` (uses a model from step 1; no alignment needed)
 
 Plots are saved in `plots/` and open automatically.
 
