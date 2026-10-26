@@ -46,10 +46,29 @@ python --version                # should say Python 3.13.x
 pip install -r requirements.txt
 ```
 
-### Step 3: Add the corpus
+### Step 3: Download and unzip the corpus
 
-Download `aper-clean.zip`, unzip it, and put the **`aper-clean`** folder inside
-`10-Word-Embeddings`. It has one folder per period:
+The corpus is a 49 MB zip file on Box. Run these commands from inside the
+`10-Word-Embeddings` folder.
+
+**Mac (Terminal):**
+
+```bash
+curl -L -o aper-clean.zip "https://clemson.box.com/shared/static/ff0f2hzicbonuj1a7sczn3titp49ol8r.zip"
+unzip -q aper-clean.zip -x "__MACOSX/*"
+```
+
+**Windows (PowerShell):**
+
+```powershell
+Invoke-WebRequest -Uri "https://clemson.box.com/shared/static/ff0f2hzicbonuj1a7sczn3titp49ol8r.zip" -OutFile aper-clean.zip
+Expand-Archive aper-clean.zip -DestinationPath .
+Remove-Item -Recurse -Force __MACOSX
+```
+
+The last command on each removes a folder of hidden Mac files that comes with the zip.
+
+You should now have an **`aper-clean`** folder with one folder per period:
 
 ```
 10-Word-Embeddings/
@@ -58,6 +77,10 @@ Download `aper-clean.zip`, unzip it, and put the **`aper-clean`** folder inside
     ├── 1920-1939/
     └── 1940-1959/
 ```
+
+Check with `ls aper-clean` (Mac) or `dir aper-clean` (Windows): you should see the three period folders.
+If the download doesn't work, open <https://clemson.box.com/s/ff0f2hzicbonuj1a7sczn3titp49ol8r> in a
+browser, download the zip, move it into `10-Word-Embeddings`, and run just the unzip commands above.
 
 ---
 
