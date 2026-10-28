@@ -32,7 +32,7 @@ MODEL = "urchade/gliner_medium-v2.1"
 LABELS = ["person", "state", "county", "city or town", "organization", "facility"]
 
 # How confident the model must be (0 to 1) to keep an entity
-THRESHOLD = 0.5
+THRESHOLD = 0.7
 
 
 def main():

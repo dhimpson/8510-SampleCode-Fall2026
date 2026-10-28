@@ -45,12 +45,9 @@ LABELS = [
 ]
 
 # What the model should know about the source (Hiltmann et al.: context matters)
-CONTEXT = """The text is from a 1937 report on the recreation program of the Works
-Progress Administration (WPA), a New Deal agency. It summarizes monthly activities
-county by county in Alabama (February 1937) and Arkansas (March 1937). The pages
-were typed and then OCR'd, so the text contains OCR errors, stray page numbers,
-and some markup such as <u>. The report reflects segregation: it uses the period
-terms 'colored' and 'Negro' for programs and facilities for Black residents."""
+CONTEXT = """This is a text from a student published periodical from Furman University in 1904. Furman Univeristy is located in Greenville, South Carolina.
+  The pages were typed and then OCR'd, so the text contains OCR errors.  The text reflects segregation and racial violence: it uses the period
+terms 'Negro' and often names important political figures in the South as well as places in South Carolina geography."""
 
 PROMPT = f"""You are a historian annotating a primary source for named entities.
 
@@ -115,7 +112,7 @@ def find_in_text(text, entities):
     cursor = 0
     for entity in entities:
         # Match the words exactly, but let any space be a line break too
-        # ("Young Men's Club" is split across two lines in the source)
+        # ("momemt-ous" is split across two lines in the source)
         pattern = re.compile(r"\s+".join(re.escape(word) for word in entity["text"].split()))
         match = pattern.search(text, cursor) or pattern.search(text)  # ahead, then from the top
         if not match:                         # not in the text at all
