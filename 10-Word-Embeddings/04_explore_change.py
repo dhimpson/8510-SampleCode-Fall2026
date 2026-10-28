@@ -29,7 +29,7 @@ SCRIPT_DIR = Path(__file__).parent
 
 # --- Settings ------------------------------------------------------------------
 
-WORD = "fitness"
+WORD = "strength"
 
 # The same names, in the same order, as in 03_align_models.py
 MODEL_NAMES = ["1896-1919", "1920-1939", "1940-1959"]
