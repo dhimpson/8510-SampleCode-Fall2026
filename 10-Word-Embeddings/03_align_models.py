@@ -30,7 +30,7 @@ SCRIPT_DIR = Path(__file__).parent
 # --- Settings ------------------------------------------------------------------
 
 # In chronological order. Each must be a model you trained with 01_train_model.py.
-MODEL_NAMES = ["1896-1919", "1920-1939", "1940-1959"]
+MODEL_NAMES = ["mb-1895-1909", "mb-1910-1922", "mb-1923-1936"]
 
 # Anchor words must appear at least this many times in EVERY period.
 ANCHOR_MIN_COUNT = 50

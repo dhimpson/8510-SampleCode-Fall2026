@@ -32,7 +32,7 @@ SCRIPT_DIR = Path(__file__).parent
 WORD = "strength"
 
 # The same names, in the same order, as in 03_align_models.py
-MODEL_NAMES = ["1896-1919", "1920-1939", "1940-1959"]
+MODEL_NAMES = ["mb-1895-1909", "mb-1910-1922", "mb-1923-1936"]
 
 TOP_N = 10                  # neighbors to list for each period
 PLOT_NEIGHBORS = 6          # neighbors to draw for each period

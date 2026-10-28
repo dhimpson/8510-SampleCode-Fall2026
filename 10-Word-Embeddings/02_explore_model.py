@@ -34,7 +34,7 @@ SCRIPT_DIR = Path(__file__).parent
 
 # --- Settings ------------------------------------------------------------------
 
-MODEL_NAME = "1940-1959"              # which model in models/ to explore
+MODEL_NAME = "mb-1923-1936"              # which model in models/ to explore
 
 WORD = "athlete"                      # 1. nearest words to this word (also used in 3.)
 TOP_N = 15

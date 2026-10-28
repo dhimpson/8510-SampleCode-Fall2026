@@ -33,7 +33,7 @@ SCRIPT_DIR = Path(__file__).parent
 
 # --- Settings ------------------------------------------------------------------
 
-MODEL_NAME = "1940-1959"              # which model in models/ to use
+MODEL_NAME = "mb-1923-1936"              # which model in models/ to use
 TARGET = "fitness"
 
 WOMEN_WORDS = ["woman", "women", "she", "her", "hers", "herself", "girl", "girls"]
