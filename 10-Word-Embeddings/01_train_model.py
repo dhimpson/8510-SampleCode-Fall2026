@@ -32,8 +32,8 @@ SCRIPT_DIR = Path(__file__).parent
 
 # --- Change these two lines for each model -------------------------------------
 
-CORPUS_FOLDER = SCRIPT_DIR / "aper-clean" / "1896-1919"
-MODEL_NAME = "1896-1919"
+CORPUS_FOLDER = SCRIPT_DIR / "aper-clean" / "1940-1959"
+MODEL_NAME = "1940-1959"
 
 # --- Training settings (keep them the same for every model you'll compare) -----
 
