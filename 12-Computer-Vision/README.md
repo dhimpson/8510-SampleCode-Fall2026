@@ -60,7 +60,7 @@ pip install -r requirements.txt # PyTorch, OpenCV, pandas, matplotlib, and dvt: 
 
 ### Step 2: Get the photographs
 
-**[Download the photographs from Box](BOX-LINK-HERE)** (`catching-the-wave-images.zip`, 38 MB).
+**[Download the photographs from Box](https://clemson.box.com/s/5f7zuzypoyecz942vg24me7io23l1don)** (`catching-the-wave-images.zip`, 38 MB; sign in with your Clemson account).
 Unzip it inside the `12-Computer-Vision` folder. You should end up with a folder called `images`
 right next to the scripts, holding 400 `.jpg` files:
 
