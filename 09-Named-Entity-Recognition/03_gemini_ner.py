@@ -42,11 +42,15 @@ LABELS = [
                      "business, or radio station (e.g. 'WPA', 'Kiwanis Club', 'Baptist Church')."),
     ("FACILITY", "A named building or site where activities happen: a park, school, "
                  "auditorium, center, or home (e.g. 'Municipal Auditorium', 'Oak Park')."),
+    ("CRIME", "A named or specific crime described in the text (e.g. 'lynching'). "
+              "Do not label general words like 'cases'."),
 ]
 
 # What the model should know about the source (Hiltmann et al.: context matters)
-CONTEXT = """This is a text from a student published periodical from Furman University in 1904. Furman Univeristy is located in Greenville, South Carolina.
-  The pages were typed and then OCR'd, so the text contains OCR errors.  The text reflects segregation and racial violence: it uses the period
+CONTEXT = """This is a file from the NAACP records housed in the Library of Congress. The file discusses two potential court cases
+in Greenville, South Carolina in 1933. One case involved the lynching of George Green. The other case involved the assault and subsequent death of
+Roy Hudson. Hudson was serving jail time on the county chain gang and was beaten to death by four guards. The pages were typed and then OCR'd, so the text contains OCR errors.
+The text reflects segregation and racial violence: it uses the period
 terms 'Negro' and often names important political figures in the South as well as places in South Carolina geography."""
 
 PROMPT = f"""You are a historian annotating a primary source for named entities.

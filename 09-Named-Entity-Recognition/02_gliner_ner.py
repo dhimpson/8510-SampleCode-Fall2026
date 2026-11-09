@@ -29,10 +29,10 @@ from common import load_source, save_results, split_into_chunks
 MODEL = "urchade/gliner_medium-v2.1"
 
 # The entity types to look for. Plain English -- change them to fit your source.
-LABELS = ["person", "state", "county", "city or town", "organization", "facility"]
-
+LABELS = ["person", "state", "county", "city or town", "organization", "facility","occupation", "crime",]
+# First run with NCAAP file: added occupation, crime. Kept threshold at 0.7.
 # How confident the model must be (0 to 1) to keep an entity
-THRESHOLD = 0.7
+THRESHOLD = 0.3
 
 
 def main():

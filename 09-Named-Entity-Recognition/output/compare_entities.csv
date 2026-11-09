@@ -1,0 +1,31 @@
+entity,method,found,count,labels,examples
+Oxner,spaCy,yes,1,PERSON x1,Oxner
+Oxner,GLiNER,yes,1,PERSON x1,Judge Oxner
+Oxner,Gemini,yes,1,PERSON x1,Judge Oxner
+White,spaCy,yes,2,PERSON x2,White
+White,GLiNER,yes,2,PERSON x2,Mr. White
+White,Gemini,yes,2,PERSON x2,Mr. White
+N. A. C. P.,spaCy,yes,1,PERSON x1,N. A. C. P.
+N. A. C. P.,GLiNER,yes,1,ORGANIZATION x1,N. A. C. P.
+N. A. C. P.,Gemini,yes,1,ORGANIZATION x1,N. A. C. P.
+"Greenville, N. C.",spaCy,no,0,,
+"Greenville, N. C.",GLiNER,no,0,,
+"Greenville, N. C.",Gemini,no,0,,
+N. C.,spaCy,yes,1,PERSON x1,N. C.
+N. C.,GLiNER,no,0,,
+N. C.,Gemini,yes,1,STATE x1,N. C.
+I,spaCy,no,0,,
+I,GLiNER,yes,19,PERSON x19,I
+I,Gemini,no,0,,
+Roy Hudson,spaCy,yes,5,PERSON x5,Roy Hudson
+Roy Hudson,GLiNER,yes,5,PERSON x5,Roy Hudson
+Roy Hudson,Gemini,yes,5,PERSON x5,Roy Hudson
+Luther Hudson,spaCy,yes,2,PERSON x2,Luther Hudson
+Luther Hudson,GLiNER,yes,2,PERSON x2,Luther Hudson
+Luther Hudson,Gemini,yes,2,PERSON x2,Luther Hudson
+George Green,spaCy,yes,13,PERSON x13,George Green
+George Green,GLiNER,yes,13,PERSON x13,George Green
+George Green,Gemini,yes,12,PERSON x12,George Green
+Library of Congress,spaCy,no,0,,
+Library of Congress,GLiNER,yes,1,ORGANIZATION x1,LIBRARY OF CONGRESS
+Library of Congress,Gemini,yes,1,ORGANIZATION x1,Library of Congress
