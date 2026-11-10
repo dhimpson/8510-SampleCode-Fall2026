@@ -5,8 +5,8 @@ Step 1: N-grams, shingles, and Jaccard similarity
 
 Breaks two short texts into overlapping pieces, two ways:
 
-  - word n-grams:       runs of N words       ("the white", "white and", ...)
-  - character shingles: runs of K characters  ("the", "he ", "e w", ...)
+  - word n-grams:       runs of N words       ("honorary members", "members shall", ...)
+  - character shingles: runs of K characters  ("honor", "onora", "norar", ...)
 
 then measures how much the two sets of pieces overlap with Jaccard similarity:
 
@@ -21,11 +21,16 @@ import re
 
 # --- Change these --------------------------------------------------------------
 
-# North Carolina's militia law, as enacted in 1893 and in 1907
-TEXT_A = ("That the white and colored militia shall be separately enrolled and shall never "
-          "be compelled to serve in the same companies, battalions, regiments or brigades.")
-TEXT_B = ("The white and colored militia shall be separately enrolled, and shall never "
-          "be compelled to serve in the same organization.")
+# One clause of the American Physical Education Association's constitution, as
+# adopted in 1886 and in 1895 (both reprinted in test/APER_1909_November.txt)
+TEXT_A = ("Honorary members shall not exceed the proportion of one to twenty-five active "
+          "members, and shall consist of persons well known as patrons of physical education. "
+          "They shall be nominated by the Council — and require a two-thirds vote of the "
+          "members present to elect.")
+TEXT_B = ("Honorary Members shall not exceed the proportion of one to twenty-five Active "
+          "Members, and shall consist of persons well known as patrons of physical education. "
+          "They shall be nominated by the Executive Committee and require a two-thirds vote "
+          "of the members present to elect.")
 
 N = 5           # words per n-gram
 K = 5           # characters per shingle
