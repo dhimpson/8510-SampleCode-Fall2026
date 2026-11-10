@@ -27,7 +27,7 @@ TEXT_A = ("That the white and colored militia shall be separately enrolled and s
 TEXT_B = ("The white and colored militia shall be separately enrolled, and shall never "
           "be compelled to serve in the same organization.")
 
-N = 2           # words per n-gram
+N = 5           # words per n-gram
 K = 5           # characters per shingle
 CLEAN = True    # lowercase and drop punctuation before comparing?
 
