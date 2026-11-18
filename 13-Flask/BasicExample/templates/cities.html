@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Cities - SC Gay Guides{% endblock %}
+
+{% block content %}
+<div class="back-link">
+    <a href="/">&larr; Back to Venues List</a>
+</div>
+
+<h1>Cities in the SC Gay Guides</h1>
+<p>The database lists venues in {{ cities|length }} cities:</p>
+
+<div class="venue-card">
+    <ul>
+        {% for city in cities %}
+        <li class="venue-info">{{ city.city_name }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+<p><em>This page comes from the /cities route, which runs one SELECT DISTINCT query and passes the results to this template.</em></p>
+{% endblock %}
