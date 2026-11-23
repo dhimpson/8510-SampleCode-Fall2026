@@ -32,7 +32,7 @@ TEXT_B = ("Honorary Members shall not exceed the proportion of one to twenty-fiv
           "They shall be nominated by the Executive Committee and require a two-thirds vote "
           "of the members present to elect.")
 
-N = 5           # words per n-gram
+N = 6           # words per n-gram
 K = 5           # characters per shingle
 CLEAN = True    # lowercase and drop punctuation before comparing?
 

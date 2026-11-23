@@ -26,7 +26,7 @@ SCRIPT_DIR = Path(__file__).parent
 
 # --- Change these --------------------------------------------------------------
 
-PHOTO = "URN-3_RAD.SCHL_100515385.jpg"   # ERA march, Washington, D.C., 1978
+PHOTO = "urn-3_RAD.SCHL_13146401.jpg"   # ERA march, Washington, D.C., 1978
 MIN_SCORE = 0.5                          # only show boxes the model is at least this sure about
 
 # Others worth trying:
